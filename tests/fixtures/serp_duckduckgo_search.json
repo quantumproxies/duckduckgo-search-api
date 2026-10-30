@@ -1,0 +1,87 @@
+{
+ "input": {
+  "query": "retrieval augmented generation",
+  "country": "us",
+  "lang": "en"
+ },
+ "response": {
+  "search_metadata": {
+   "status": "Success",
+   "engine": "duckduckgo",
+   "search_url": "https://html.duckduckgo.com/html/?q=retrieval%20augmented%20generation&kl=us-en",
+   "created_at": "2026-10-23T09:54:46.972Z",
+   "total_time_taken": 1.73
+  },
+  "search_parameters": {
+   "engine": "duckduckgo",
+   "q": "retrieval augmented generation",
+   "search_type": "search",
+   "device": "desktop",
+   "country": "us",
+   "language": "en",
+   "page": 1
+  },
+  "organic": [
+   {
+    "rank": 1,
+    "title": "Retrieval-augmented generation - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "display_link": "en.wikipedia.org/wiki/Retrieval-augmented_generation",
+    "source": "en.wikipedia.org",
+    "description": "Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from external data sources. [1][2] With RAG, LLMs first refer to a specified set of documents, then respond to user queries.",
+    "snippet_highlighted_words": [
+     "Retrieval-augmented",
+     "generation"
+    ]
+   },
+   {
+    "rank": 2,
+    "title": "What is Retrieval-Augmented Generation (RAG) - GeeksforGeeks",
+    "link": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "display_link": "www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "source": "geeksforgeeks.org",
+    "description": "Retrieval-Augmented Generation (RAG) is a way to make AI answers more reliable by combining searching for relevant information and then generating a response. Instead of guessing based only on old training data, it first finds useful data from external sources (like documents or databases) and then uses it to give a better answer.",
+    "snippet_highlighted_words": [
+     "Retrieval-Augmented",
+     "Generation"
+    ]
+   },
+   {
+    "rank": 3,
+    "title": "What is RAG? - Retrieval-Augmented Generation AI Explained - AWS",
+    "link": "https://aws.amazon.com/what-is/retrieval-augmented-generation/",
+    "display_link": "aws.amazon.com/what-is/retrieval-augmented-generation/",
+    "source": "aws.amazon.com",
+    "description": "Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models (LLMs) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating ...",
+    "snippet_highlighted_words": [
+     "Retrieval-Augmented",
+     "Generation"
+    ]
+   }
+  ],
+  "knowledge": {
+   "title": "Retrieval-augmented generation",
+   "subtitle": null,
+   "description": "Retrieval-augmented generation is a technique that enables large language models to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries.",
+   "attributes": {}
+  },
+  "featured_snippet": {
+   "text": "Retrieval-augmented generation is a technique that enables large language models to retrieve and incorporate new information from external data sources. With RAG, LLMs first refer to a specified set of documents, then respond to user queries.",
+   "source_link": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation",
+   "source_title": "Retrieval-augmented generation"
+  },
+  "pagination": {
+   "current": 1,
+   "next": 2,
+   "total_pages": null,
+   "other_pages": {},
+   "available_pages": [
+    1,
+    2
+   ],
+   "has_next": true
+  }
+ },
+ "finished_at": "2026-10-23T09:54:49Z",
+ "_note": "Real call of 2026-10-23; the first three of the ten organic results kept, the knowledge panel and featured snippet cut after their first two sentences. Transport details (attempts, bytes, retries) omitted."
+}

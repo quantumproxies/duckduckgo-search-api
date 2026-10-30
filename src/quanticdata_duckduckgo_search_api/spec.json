@@ -1,0 +1,61 @@
+{
+ "cli": "duckduckgo-search",
+ "name": "DuckDuckGo Search API",
+ "version": "0.1.0",
+ "description": "DuckDuckGo search API for Python and the command line: DuckDuckGo web results with rank, title, link, snippet and source, plus the knowledge panel when DuckDuckGo shows one, as JSON or CSV. A web search step for LLM agents and RAG pipelines. Free and open source; no DuckDuckGo key or proxies needed.",
+ "links": {
+  "repo": "https://github.com/quantumproxies/duckduckgo-search-api",
+  "page": "https://quanticdata.io/serp-api/?utm_source=github&utm_medium=cli&utm_campaign=duckduckgo-search-api",
+  "billing": "https://app.quanticdata.io/billing?utm_source=github&utm_medium=cli&utm_campaign=duckduckgo-search-api",
+  "pricing": "https://quanticdata.io/pricing/?utm_source=github&utm_medium=cli&utm_campaign=duckduckgo-search-api"
+ },
+ "commands": [
+  {
+   "name": "search",
+   "collector": null,
+   "method": "search",
+   "help": "DuckDuckGo web results for a query",
+   "endpoint": "serp",
+   "fixed": {
+    "engine": "duckduckgo",
+    "search_type": "search"
+   },
+   "rows_key": "organic",
+   "row_field": "value",
+   "description": "DuckDuckGo web results for a query: rank, title, link, snippet and source of each organic result, plus the knowledge panel and featured snippet when DuckDuckGo shows them.",
+   "positional": "query",
+   "positional_is_list": false,
+   "positional_optional": false,
+   "columns": [
+    "rank",
+    "title",
+    "source",
+    "link"
+   ],
+   "sample": "serp_duckduckgo_search",
+   "inputs": [
+    {
+     "name": "query",
+     "type": "string",
+     "required": true,
+     "description": "What to search, e.g. \"retrieval augmented generation\".",
+     "arg": "query"
+    },
+    {
+     "name": "country",
+     "type": "string",
+     "required": false,
+     "description": "Region to search, as an ISO country code (us, gb, de...); with --lang it becomes DuckDuckGo's region code, e.g. us-en.",
+     "arg": "country"
+    },
+    {
+     "name": "lang",
+     "type": "string",
+     "required": false,
+     "description": "Language of the region, e.g. en, de, fr.",
+     "arg": "lang"
+    }
+   ]
+  }
+ ]
+}
